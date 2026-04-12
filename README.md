@@ -1,33 +1,24 @@
-# 🐾 Projeto PetCare
-
-Este projeto simula uma clínica & pet shop premium, com agendamento online, painel de gestão e exemplos de boas práticas em HTML, CSS e JavaScript. Ideal para estudos de front-end, UX e organização de código educacional.
-
+🐾 PetCare — Clínica & Pet Shop
+Landing page completa de uma clínica veterinária fictícia com sistema de agendamento online, painel de gestão e página de confirmação.
+🔗 Demo
+→ Acesse o projeto ao vivo
 ---
-
-## 📌 Funcionalidades
-
-- ✅ Agendamento de serviços (banho, consulta, vacinação, cirurgia)
-- ✅ Painel de agenda com filtros e busca
-- ✅ Confirmação visual do agendamento
-- ✅ Depoimentos simulados de clientes
-- ✅ Layout responsivo e alegre
-- ✅ Botão WhatsApp flutuante para dúvidas
-
+📌 Funcionalidades
+✅ Agendamento de serviços (banho, consulta, vacinação, cirurgia)
+✅ Painel de agenda com filtros e busca
+✅ Confirmação visual do agendamento
+✅ Depoimentos simulados de clientes
+✅ Layout responsivo
+✅ Botão WhatsApp flutuante para dúvidas
 ---
-
-## 🛠 Tecnologias utilizadas
-
-- **HTML5**
-- **CSS3** (customizado, paleta alegre)
-- **JavaScript** (sem frameworks)
-- **LocalStorage** para persistência dos agendamentos
-
+🛠️ Tecnologias
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ---
-
-## 📂 Estrutura do projeto
-
-```bash
-📦 projeto-PetCare-main
+📂 Estrutura do projeto
+```
+📦 petcare-landing-page
  ┣ 📜 index.html         # Página principal (agendamento)
  ┣ 📜 agenda.html        # Painel de agendamentos
  ┣ 📜 confirmação.html   # Confirmação do agendamento
@@ -36,35 +27,35 @@ Este projeto simula uma clínica & pet shop premium, com agendamento online, pai
  ┣ 📂 assents/           # Imagens e ícones
  ┗ 📜 README.md          # Documentação do projeto
 ```
-
 ---
+▶️ Como executar localmente
+```bash
+# Clone o repositório
+git clone https://github.com/DanielCanaud/petcare-landing-page
 
-## ▶️ Como executar
+# Acesse a pasta
+cd petcare-landing-page
 
-1. Abra o arquivo `index.html` em seu navegador.
-2. Para testar o painel, acesse `agenda.html`.
-3. O agendamento é salvo no navegador (localStorage) e pode ser visualizado/gerenciado no painel.
-
-
-
-## 🧪 Verificação
-
-- Agende um serviço na página principal.
-- Confira a confirmação em `confirmação.html`.
-- Veja o agendamento listado em `agenda.html`.
-- Teste filtros, busca e botão de limpar histórico.
-
+# Abra o arquivo index.html no navegador
+```
+> Não requer instalação de dependências — projeto em HTML, CSS e JS puro.
 ---
-
-## 📚 Objetivo educacional
-
+🧪 Como testar
+Agende um serviço na página principal
+Confira a confirmação em `confirmação.html`
+Veja o agendamento listado em `agenda.html`
+Teste filtros, busca e botão de limpar histórico
+> Os agendamentos são salvos via **localStorage** no navegador.
+---
+📚 Objetivo
 O projeto demonstra:
-- Estrutura clara de HTML/CSS/JS
-- Validação de formulários
-- Uso de localStorage
-- Organização de componentes visuais
-- Simulação de fluxo real de agendamento
-
+Estrutura clara de HTML/CSS/JS
+Validação de formulários
+Uso de localStorage
+Organização de componentes visuais
+Simulação de fluxo real de agendamento
 ---
-
-> Desenvolvido para fins acadêmicos e demonstração de boas práticas em projetos web.
+👨‍💻 Autor
+Feito por Daniel Canaud
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
