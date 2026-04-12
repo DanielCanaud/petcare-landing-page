@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetCare • Agendamento</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="agendamento">
+  <header class="header">
+    <div class="container header__content">
+      <a class="brand" href="index.html" aria-label="PetCare Home">
+        <img class="brand__logo" src="assents/logo.png"   alt="Logo PetCare" />
+        <span class="brand__name">PetCare</span>
+      </a>
+
+      <p class="header__tagline">Clínica & Pet Shop premium — agende em menos de 1 minuto.</p>
+
+      <nav class="header__nav">
+        <a class="link" href="#servicos">Serviços</a>
+        <a class="link" href="#sobre">Sobre</a>
+        <a class="link" href="#galeria">Estrutura</a>
+        <a class="link" href="agenda.html">Agenda</a>
+        <a class="btn btn--primary" href="#form-agendamento">Agendar agora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <h1>Cuidado profissional para o seu pet, com organização de verdade.</h1>
+          <p class="muted">Agende online, receba confirmação e acompanhe tudo no painel.</p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#form-agendamento">Agendar atendimento</a>
+            <a class="btn btn--ghost" href="agenda.html">Ver agenda</a>
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <div class="glass-card">
+            <h3>Agende agora</h3>
+            <p class="muted">Escolha serviço, data e horário.</p>
+
+            <form id="form-agendamento" class="form">
+              <div class="field">
+                <label for="servico">Serviço</label>
+                <select id="servico" name="servico" required>
+                  <option value="">Selecione um serviço</option>
+                  <option value="Banho e Tosa">Banho e Tosa</option>
+                  <option value="Consulta Veterinária">Consulta Veterinária</option>
+                  <option value="Vacinação">Vacinação</option>
+                  <option value="Cirurgia">Cirurgia</option>
+                </select>
+                <small class="error" data-error-for="servico"></small>
+              </div>
+
+              <div class="grid-2">
+                <div class="field">
+                  <label for="tutor">Nome do tutor</label>
+                  <input id="tutor" name="tutor" type="text" required />
+                  <small class="error" data-error-for="tutor"></small>
+                </div>
+
+                <div class="field">
+                  <label for="nomePet">Nome do pet</label>
+                  <input id="nomePet" name="nomePet" type="text" required />
+                  <small class="error" data-error-for="nomePet"></small>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="telefone">Telefone</label>
+                <input id="telefone" name="telefone" type="tel" placeholder="(11) 99999-9999" required />
+                <small class="error" data-error-for="telefone"></small>
+              </div>
+
+              <div class="grid-2">
+                <div class="field">
+                  <label for="data">Data</label>
+                  <input id="data" name="data" type="date" required />
+                  <small class="error" data-error-for="data"></small>
+                </div>
+
+                <div class="field">
+                  <label for="hora">Horário</label>
+                  <select id="hora" name="hora" required>
+                    <option value="">Selecione um horário</option>
+                  </select>
+                  <small class="error" data-error-for="hora"></small>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn--primary">Confirmar agendamento</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section__head">
+          <h2>Serviços</h2>
+          <p class="muted">Transparência e profissionalismo em cada detalhe.</p>
+          
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <img class="card__img-real" src="assents/banho-tosa.png" alt="Banho e Tosa">
+            <h3>Banho e Tosa</h3>
+            <p class="muted">Higiene completa e tosa personalizada para seu pet.</p>
+          </article>
+
+          <article class="card">
+            <img class="card__img-real" src="assents/consulta-veterinaria.png" alt="Consulta Veterinária">
+            <h3>Consulta Veterinária</h3>
+            <p class="muted">Avaliação profissional com médicos experientes.</p>
+          </article>
+
+          <article class="card">
+            <img class="card__img-real" src="assents/vacinação.png" alt="Vacinação">
+            <h3>Vacinação</h3>
+            <p class="muted">Proteção completa com calendário atualizado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section section--soft" id="sobre">
+      <div class="container about">
+        <img class="about__img" src="assents/equipe.png" alt="Equipe e estrutura da clínica">
+        <div class="about__text">
+          <h2>Sobre a PetCare</h2>
+          <p class="muted">Ambiente moderno, equipe preparada e agendamento organizado.</p>
+          <a class="btn btn--primary" href="#form-agendamento">Agendar agora</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section__head">
+          <h2>Nossa estrutura</h2>
+          <p class="muted">Fotos do espaço aumentam confiança (parece negócio real).</p>
+        </div>
+
+        <div class="gallery">
+          <img class="gallery__img" src="assents/recpção-clinica.png" alt="Recepção da clínica">
+          <img class="gallery__img" src="assents/consultorio-veterinario.png" alt="Consultório veterinário">
+          <img class="gallery__img" src="assents/banho-&-tosa.png" alt="Espaço de banho e tosa">
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section__head">
+          <h2>Depoimentos</h2>
+          <p class="muted">Avatares ajudam a simular clientes reais.</p>
+        </div>
+
+       
+        <div class="testimonials">
+          <figure class="quote">
+            <img class="quote__avatar" src="assents/depoimento-cliente-1.png" alt="Maria — tutora do Thor">
+            <blockquote>
+              <p>Equipe incrível, agendamento rápido e ótimo atendimento.</p>
+            </blockquote>
+            <figcaption class="quote__author"><strong>Mariana Souza</strong> <span class="muted">— Tutora do Thor</span></figcaption>
+          </figure>
+
+          <figure class="quote">
+            <img class="quote__avatar" src="assents/depoimento-cliente-2.png" alt="João — tutor da Luna">
+            <blockquote>
+              <p>Minha pet sempre sai feliz. Recomendo!</p>
+            </blockquote>
+            <figcaption class="quote__author"><strong>João</strong> <span class="muted">— Tutor da Luna</span></figcaption>
+          </figure>
+
+          <figure class="quote">
+            <img class="quote__avatar" src="assents/depoimento-cliente-3.png" alt="vitoria — tutora do Rex">
+            <blockquote>
+              <p>Profissionais atenciosos e ambiente limpo.</p>
+            </blockquote>
+            <figcaption class="quote__author"><strong>Ana</strong> <span class="muted">— Tutora do Rex</span></figcaption>
+          </figure>
+        </div>
+ 
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <span class="muted">© <span id="year"></span> PetCare</span>
+      <a class="link" href="agenda.html">Ir para Agenda</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

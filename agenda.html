@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetCare • Agenda Geral</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="dashboard">
+  <header class="header">
+    <div class="container header__content">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assents/logo.png" alt="Logo PetCare" />
+        <span class="brand__name">PetCare</span>
+      </a>
+
+      <p class="header__tagline">Painel de agendamentos</p>
+
+      <nav class="header__nav">
+        <a class="link" href="index.html">Novo agendamento</a>
+        <a class="btn btn--primary" href="index.html#form-agendamento">Agendar agora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h1>Agenda Geral</h1>
+          <p class="muted">Gerencie os agendamentos e atualize o status.</p>
+        </div>
+
+        <div class="stats" id="stats"></div>
+
+        <div class="toolbar">
+          <div class="search">
+            <input id="search" type="text" placeholder="Buscar por pet, tutor, serviço..." />
+          </div>
+          <div class="filters">
+            <select id="filterStatus">
+              <option value="all">Todos</option>
+              <option value="analise">Em análise</option>
+              <option value="confirmado">Confirmado</option>
+              <option value="cancelado">Cancelado</option>
+            </select>
+          </div>
+        </div>
+
+        <section class="panel">
+          <div class="panel__head">
+              <h2>Lista de agendamentos</h2>
+              <p class="muted">Dados vindos do localStorage.</p>
+              <div style="margin-top:8px">
+                <button id="btn-clear-history" class="btn btn--danger">Limpar histórico</button>
+              </div>
+            </div>
+
+          <div id="lista-agendamentos" class="list"></div>
+
+          <div id="empty-state" class="empty" hidden>
+            <img class="empty-img" src="assents/nenhum-agendamento.png" alt="Nenhum agendamento">
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <span class="muted">© <span id="year"></span> PetCare</span>
+      <a class="link" href="index.html">Voltar</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

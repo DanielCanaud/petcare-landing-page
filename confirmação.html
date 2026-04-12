@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetCare • Confirmação</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="confirmacao">
+  <header class="header">
+    <div class="container header__content">
+      <a class="brand" href="index.html">
+        <!-- IMAGEM: assets/logo.png -->
+        <img class="brand__logo" src="assents/logo.png" alt="Logo PetCare" />
+        <span class="brand__name">PetCare</span>
+      </a>
+
+      <p class="header__tagline">Recebemos seu agendamento com sucesso.</p>
+
+      <nav class="header__nav">
+        <a class="link" href="agenda.html">Agenda</a>
+        <a class="btn btn--ghost" href="index.html">Novo agendamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section">
+      <div class="container confirm">
+
+        <div class="confirm__left">
+          <div class="success">
+            <div class="success__icon">✅</div>
+            <h1>Agendamento registrado!</h1>
+            <p class="muted">Em breve entraremos em contato para confirmar detalhes.</p>
+          </div>
+
+          <div class="panel">
+            <h2>Dados do agendamento</h2>
+            <div id="ultimo-agendamento" class="last-card"></div>
+
+            <div class="actions">
+              <a class="btn btn--ghost" href="index.html">Voltar</a>
+              <a class="btn btn--primary" href="agenda.html">Ir para Agenda</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="confirm__right">
+          <!-- IMAGEM: assets/confirmacao.jpg -->
+          <img class="confirm-img" src="assents/agendamento-confirmado.png" alt="Pet feliz após confirmação">
+          <p class="muted" style="text-align:center; margin-top:10px;">
+            Obrigado por confiar na PetCare 🐾
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <span class="muted">© <span id="year"></span> PetCare</span>
+      <a class="link" href="agenda.html">Dashboard</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
