@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 🐾 PetCare — Clínica & Pet Shop
 Landing page completa de uma clínica veterinária fictícia com sistema de agendamento online, painel de gestão e página de confirmação.
 🔗 Demo
@@ -66,7 +66,7 @@ Feito por Daniel Canaud
 
 Landing page completa de uma clínica veterinária fictícia com sistema de agendamento online, painel de gestão e página de confirmação.
 
-## 🚀 Links Rápidos (Recrutador)
+## 🚀 Links Rápidos 
 
 - [Ver projeto rodando (Vercel)](https://projetos-ten-teal.vercel.app)
 - [Ver código-fonte do projeto](https://github.com/DanielCanaud/petcare-landing-page)
