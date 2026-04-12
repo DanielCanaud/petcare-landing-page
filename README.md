@@ -12,9 +12,10 @@ Landing page completa de uma clínica veterinária fictícia com sistema de agen
 ✅ Botão WhatsApp flutuante para dúvidas
 ---
 🛠️ Tecnologias
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+HTML5
+CSS3
+JavaScript (sem frameworks)
+LocalStorage para persistência dos agendamentos
 ---
 📂 Estrutura do projeto
 ```
@@ -57,5 +58,5 @@ Simulação de fluxo real de agendamento
 ---
 👨‍💻 Autor
 Feito por Daniel Canaud
-![LinkedIn](https://www.linkedin.com/in/danielcanaud-dev/)
-![GitHub](https://github.com/DanielCanaud)
+🔗 LinkedIn
+🐙 GitHub
