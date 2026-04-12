@@ -57,5 +57,5 @@ Simulação de fluxo real de agendamento
 ---
 👨‍💻 Autor
 Feito por Daniel Canaud
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![LinkedIn](https://www.linkedin.com/in/danielcanaud-dev/)
+![GitHub](https://github.com/DanielCanaud)
