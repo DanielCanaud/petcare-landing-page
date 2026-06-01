@@ -1,6 +1,12 @@
-# 🐾 PetCare — Clínica & Pet Shop
+#  PetCare — Clínica & Pet Shop
 
 Landing page completa de uma clínica veterinária fictícia com sistema de agendamento online, painel de gestão e página de confirmação.
+
+##  Tecnologias Utilizadas
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## 🔗 Demo
 
@@ -8,14 +14,14 @@ Landing page completa de uma clínica veterinária fictícia com sistema de agen
 
 ---
 
-## 📌 Funcionalidades
+##  Funcionalidades
 
-- ✅ Agendamento de serviços (banho, consulta, vacinação, cirurgia)
-- ✅ Painel de agenda com filtros e busca
-- ✅ Confirmação visual do agendamento
-- ✅ Depoimentos simulados de clientes
-- ✅ Layout responsivo
-- ✅ Botão WhatsApp flutuante para dúvidas
+-  Agendamento de serviços (banho, consulta, vacinação, cirurgia)
+-  Painel de agenda com filtros e busca
+-  Confirmação visual do agendamento
+-  Depoimentos simulados de clientes
+-  Layout responsivo
+-  Botão WhatsApp flutuante para dúvidas
 
 ---
 
@@ -28,7 +34,7 @@ Landing page completa de uma clínica veterinária fictícia com sistema de agen
 
 ---
 
-## 📂 Estrutura do projeto
+##  Estrutura do projeto
 
 ```
 📦 petcare-landing-page
@@ -43,7 +49,7 @@ Landing page completa de uma clínica veterinária fictícia com sistema de agen
 
 ---
 
-## ▶️ Como executar localmente
+##  Como executar localmente
 
 ```bash
 # Clone o repositório
