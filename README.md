@@ -65,7 +65,7 @@ cd petcare-landing-page
 
 ---
 
-## 🧪 Como testar
+##  Como testar
 
 1. Agende um serviço na página principal
 2. Confira a confirmação em `confirmação.html`
@@ -76,7 +76,7 @@ cd petcare-landing-page
 
 ---
 
-## 📚 Objetivo
+##  Objetivo
 
 O projeto demonstra:
 
@@ -88,7 +88,7 @@ O projeto demonstra:
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 Feito por **Daniel Canaud**
 
